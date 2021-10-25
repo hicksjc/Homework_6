@@ -32,12 +32,12 @@ function show_login(){
     // MODEL.route("login");
     // console.log(window.location.pathname + "#/login");
     // root from in-info-web4.informatics.edu /~username/class-folder/Jungle_Cook/index.html#login
-    window.location.href = "~hicksjc/N315/Jungle_Cook/index.html#/login";
+    window.location.href = "~hicksjc/N315/Homework6/Jungle_Cook/index.html#/login";
 }
 
 $(document).ready(function(){
     initListeners();
     // root from in-info-web4.informatics.edu /~username/class-folder/Jungle_Cook/index.html#home
-    window.location.href = "~hicksjc/N315/Jungle_Cook/index.html#/home";
+    window.location.href = "/~hicksjc/N315/Homework6/Jungle_Cook/index.html#/home";
     MODEL.route("home", showContent);
 })
